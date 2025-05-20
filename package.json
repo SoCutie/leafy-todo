@@ -1,0 +1,32 @@
+{
+  "name": "leafy-todo",
+  "version": "1.0.0",
+  "description": "A cute green-themed to-do list app with cats and matcha",
+  "author": "Your Name",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --publish never"
+  },
+  "build": {
+    "appId": "com.yourname.leafytodo",
+    "productName": "Leafy To-Do",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "publisherName": "Your Name",
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "deleteAppDataOnUninstall": true
+    },
+    "asar": true,
+    "compression": "maximum"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leafy To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Draggable Title Bar -->
+  <div class="title-bar">
+    <div class="window-controls">
+      <img src="assets/minimize-btn.png" id="minimize-btn" class="control-btn" alt="Minimize">
+      <img src="assets/close-btn.png" id="close-btn" class="control-btn" alt="Close">
+    </div>
+  </div>
+
+  <!-- Background Container -->
+  <div class="background-container"></div>
+
+  <!-- Main App Container -->
+  <div class="app-container">
+    <!-- Header Section -->
+    <div class="header">
+      <img src="assets/text.png" class="text" alt="To-Do List Title">
+      <img src="assets/pencil.png" class="pencil" alt="Pencil Icon">
+    </div>
+
+    <!-- Task List Section -->
+    <div class="task-list" id="taskList"></div>
+  </div>
+
+  <!-- Independent Decorations (New Placement) -->
+  <img src="assets/table.png" class="table" alt="Table">
+  <img src="assets/matcha.png" class="matcha" alt="Matcha">
+  <img src="assets/matcha_cake.png" class="matcha-cake" alt="Matcha Cake">
+  <img src="assets/green_cat.png" class="green-cat" alt="Green Cat">
+
+  <!-- JavaScript -->
+  <script src="src/script.js"></script>
+</body>
+</html>
