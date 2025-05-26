@@ -1,6 +1,8 @@
 ## **✨ Cute To-Do List**
 A simple, cute, and interactive to-do list app to keep your tasks organized! Perfect for jotting down quick notes and crossing off completed tasks with a satisfying click. 🌱
 
+![alt text](to-do.png)
+
 ## **🚀 Features**
 ✔ Add tasks easily – Just type and press Enter to create a new line! ✏️
 ✔ Mark tasks as done – Click on a task to cross it out! ✅ ~~(like this!)~~
