@@ -4,10 +4,10 @@ A simple, cute, and interactive to-do list app to keep your tasks organized! Per
 ![preview](to-do.png)
 
 ## **🚀 Features**
-✔ Add tasks easily – Just type and press Enter to create a new line! ✏️
-✔ Mark tasks as done – Click on a task to cross it out! ✅ ~~(like this!)~~
-✔ Select tasks – Click the button on the left to highlight a task. 🔍
-✔ Delete tasks – Select a line, clear its text, then double-click Backspace to remove it. 🗑️
+- ✔ Add tasks easily – Just type and press Enter to create a new line! ✏️
+- ✔ Mark tasks as done – Click on a task to cross it out! ✅ ~~(like this!)~~
+- ✔ Select tasks – Click the button on the left to highlight a task. 🔍
+- ✔ Delete tasks – Select a line, clear its text, then double-click Backspace to remove it. 🗑️
 
 ## **🛠️ Installation**
 Make sure you have Node.js installed! (If not, download it first!)
